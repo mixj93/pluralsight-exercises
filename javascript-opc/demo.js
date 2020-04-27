@@ -1,6 +1,9 @@
-'use strict'; 
-(function() {
+'use strict'
+;(function() {
+  let person = {
+    firstName: 'Jack',
+    lastName: 'Sparrow'
+  }
 
-  display('Hello World');
-
-})();
+  display(person)
+})()
